@@ -1,0 +1,23 @@
+# Secrets: never upload these
+.env
+
+# Your personal data
+*.db
+*.sqlite3
+
+# Python junk
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Frontend junk
+node_modules/
+dist/
+
+# Editor and OS junk
+.vscode/
+.idea/
+.DS_Store
